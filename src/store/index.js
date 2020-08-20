@@ -5,10 +5,7 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
-    todos:[
-      {id:1, name: 'todo1', completed: true},
-      {id:2, name: 'todo2', completed: false}
-    ],
+    todos:[],
     filter: 'all',
   },
   getters:{
